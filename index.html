@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Etch-a-Sketch</title>
+    <link rel="stylesheet" href="./index.css">
+    <script src="./index.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Sketcher</h1>
+    </header>
+    <main>
+        <div id="all">
+            <div id="changer">
+                <p id="rangeVal"></p>
+                <div class="range"><label for="range">Range: <input type="range" name="range" min="2" max="30" id="range" step="2" ></label></div>
+                <div class="color"><label for="color">Color: <input type="color" id="color" name="color"></label></div>
+                <div><button>Clear</button></div>
+            </div>
+            <div id="bigcont">
+                <div id="container"></div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
